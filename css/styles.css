@@ -310,8 +310,8 @@ Hero Media Query
     width: 360px;
   }
 
-  .center .right img.img2 {
-    width: 430px;
+  .center img.img2 {
+    width: 360px;
   }
 
   .hero,
