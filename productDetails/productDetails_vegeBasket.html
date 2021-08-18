@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Nemo Shoppe</title>
+  </head>
+
+
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <h2>Product Details</h2>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="../images/products/home/vege_container/vege_container1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <h2>Vegetable Basket</h2>
+          <div class="price">$10+</div>
+
+          <h4>Product Parameter:</h4>
+          <ul class="ul_param">
+            <li>Model: one plate with 6 grids </li>
+            <li>Material: PP </li>
+            <li>Temperature: -20°C to 120°C </li>
+            <li>Size: 39 x 12 cm  </li>
+            <li>Handle: 8.5 cm </li>
+            <li>Color: Yellow and blue </li>
+            <li>Rotation: 360 degrees </li>
+          </ul>
+
+          <ul>
+            <li>Big capacity, easy to carry all kinds of food especially for hot pot.</li>
+            <li>Safe to use and don’t worry about leakage</li>
+            <li>No burr edges, smooth surface, not easy to scratch, durable material and long life</li>
+            <li>One plate with six grids meets various loading strengths.</li>
+            <li>Separate and pick up the bottom hollow to drain, fast draining speed</li>
+            <li>Long handles, load-bearing and durable type, easy to lift without cutting hands</li>
+            <li>Non-slip bottom, protruding dot design to prevent sliding.</li>
+            <li>Be able to rotate 360 degrees.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle1.jpg" class="gallery_img" alt="Image 1">
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle2.jpg" class="gallery_img" alt="Image 2">
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle3.jpg" class="gallery_img" alt="Image 3">
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle4.jpg" class="gallery_img" alt="Image 4">
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row"> 
+        <p>Copyright ©2021, All Rights Reserved.</p>
+        <p>Powered by Chamroeun Se</p>
+      </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="../js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>

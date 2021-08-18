@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Nemo Shoppe</title>
+  </head>
+
+
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <h2>Product Details</h2>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <h2>Solid Geometry Puzzle</h2>
+          <div class="price">$10+</div>
+
+          <h4>Product Parameter:</h4>
+          <ul class="ul_param">
+            <li>Iron box size: 11.5 x 11.5 x 4.5 cm </li>
+            <li>Card: 10 x 10 cm, 60 pcs </li>
+            <li>Block: 14 pcs </li>
+            <li>Material: wood </li>
+            <li>Applicable age: 3Y+ </li>
+            <li>Weight: 0.35 kg </li>
+          </ul>
+
+          <h4>Instruction of use:</h4>
+          <ol>
+            <li>select the card pattern to be challenged</li>
+            <li>assemble the correct matching blocks according to the card pattern</li>
+            <li>if the work is consistent with the card pattern, you win </li>
+          </ol>
+
+          <ul>
+            <li>Let children focus on one thing stay away from electronic product and develop their potential.  </li>
+            <li>Fun to challenge, hand-eye coordination, spatial thinking, multi-faceted development, recognition of up, down, left and right spaces, observation, test patience, concentration, logical thinking. </li>
+            <li>There are total of 60 challenge cards. The basic gameplay is on the front and the difficult of image training is on the back. </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle1.jpg" class="gallery_img" alt="Image 1">
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle2.jpg" class="gallery_img" alt="Image 2">
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle3.jpg" class="gallery_img" alt="Image 3">
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img src="../images/products/kids/solid_geometry_puzzle/geometry_puzzle4.jpg" class="gallery_img" alt="Image 4">
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row"> 
+        <p>Copyright ©2021, All Rights Reserved.</p>
+        <p>Powered by Chamroeun Se</p>
+      </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="../js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>

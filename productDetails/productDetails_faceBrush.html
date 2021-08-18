@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Nemo Shoppe</title>
+  </head>
+
+
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <h2>Product Details</h2>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="../images/products/beauty/face_brush/face_brush1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <h2>Double-sided facial brush</h2>
+          <div class="price">$4</div>
+
+          <h4>Product Parameter:</h4>
+          <ul class="ul_param">
+            <li>Material: fiber wool + soft silicone </li>
+            <li>Color: blue, pink </li>
+            <li>Weight: 55g </li>
+          </ul>
+
+          <h4>Instruction of use:</h4>
+          <ol>
+            <li>Wet the brush head</li>
+            <li>Put an appropriate amount of cleanser on the brush head</li>
+            <li>Rub it gently with your hands to make a rich foam without topping</li>
+            <li>Clean the face in circular motions</li>
+            <li>Deep cleansing of pores makes skin instantly clear</li>
+          </ol>
+
+          <ul>
+            <li>A good helper for cleansing the pores, gentle exfoliation and massage at the same time</li>
+            <li>Double brush head design can be controlled and changed to meet different needs </li>
+            <li>Wash all kind of facial problems, skin is different in one minute every day </li>
+            <li>3 reasons to choose doubled-sided brush:
+                <ol>
+                  <li>Delicate and soft: facing the computer every day, the pores become thicker and the bristles are very soft and delicate which can remove the dust remaining in the pores </li>
+                  <li>Dense foam: cleaner than hand washing, blackheads are cleaned, and the skin is much finer. </li>
+                  <li>Double enjoyment: the bristles of environmental friendly material are more delicate and clean than those in the beauty shop</li>
+                </ol>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img src="../images/products/beauty/face_brush/face_brush1.jpg" class="gallery_img" alt="Image 1">
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img src="../images/products/beauty/face_brush/face_brush2.jpg" class="gallery_img" alt="Image 2">
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img src="../images/products/beauty/face_brush/face_brush3.jpg" class="gallery_img" alt="Image 3">
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img src="../images/products/beauty/face_brush/face_brush4.jpg" class="gallery_img" alt="Image 4">
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row"> 
+        <p>Copyright ©2021, All Rights Reserved.</p>
+        <p>Powered by Chamroeun Se</p>
+      </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="../js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>

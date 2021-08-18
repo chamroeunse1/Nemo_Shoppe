@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Nemo Shoppe</title>
+  </head>
+
+
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <h2>Product Details</h2>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="../images/products/beauty/face_foam/face_foam1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <h2>Perfect Whip Cleansing Foam </h2>
+          <div class="price">$9</div>
+
+          <h4>Product Parameter:</h4>
+          <ul class="ul_param">
+            <li>Type: foam </li>
+            <li>Skin type: all</li>
+            <li>Net Wt. 120g/4.23oz</li>
+          </ul>
+
+          <ul>
+            <li>Shiseido's most popular facial cleanser!</li>
+            <li>Suitable for all skin types, Perfect Whip facial wash cleans pores gently and removes makeup thoroughly.</li>
+            <li>Lather in hands and apply onto face. Wash off with water, and follow up with toner, lotion and/or cream.</li>
+            <li>Use a foaming net for a superfine, rich lather and deeper cleansing experience!</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure>
+          <img src="../images/products/beauty/face_foam/face_foam1.jpg" class="gallery_img" alt="Image 1">
+        </figure>
+        <figure>
+          <img src="../images/products/beauty/face_foam/face_foam2.jpg" class="gallery_img" alt="Image 2">
+        </figure>
+        <figure">
+          <img src="../images/products/beauty/face_foam/face_foam3.jpg" class="gallery_img" alt="Image 3">
+        </figure>
+        <figure>
+          <img src="../images/products/beauty/face_foam/face_foam4.jpg" class="gallery_img" alt="Image 4">
+        </figure>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row"> 
+        <p>Copyright ©2021, All Rights Reserved.</p>
+        <p>Powered by Chamroeun Se</p>
+      </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="../js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>
