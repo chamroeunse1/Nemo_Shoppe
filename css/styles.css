@@ -314,6 +314,10 @@ Hero Media Query
     width: 330px;
   }
 
+  .hero .center {
+    height: 70%;
+  }
+
   .hero,
   .hero .glide__slides {
     margin: 0;
