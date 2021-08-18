@@ -272,7 +272,7 @@ Hero Area
 
 .center img.img2 {
   width: 60%;
-  right: -40%;
+  right: -50%;
   bottom: -40%;
 }
 
@@ -307,7 +307,7 @@ Hero Media Query
 
 @media only screen and (max-width: 567px) {
   .center .right img.img1 {
-    width: 280px;
+    width: 300px;
   }
 
   .center img.img2 {
@@ -317,8 +317,8 @@ Hero Media Query
   .hero,
   .hero .glide__slides {
     margin: 0;
-    padding: 0 3rem;
-    height: calc(100vh - 25rem);
+    padding: 0 2.5rem;
+    height: 350px;
   }
 
   .hero .left h1 {
@@ -331,7 +331,7 @@ Hero Media Query
   }
   .hero .left p {
     font-size: 1.2rem;
-    width: 80%;
+    width: 280px;
   }
 }
 
